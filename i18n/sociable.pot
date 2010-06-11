@@ -1,0 +1,216 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sociable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-11 23:49+0300\n"
+"PO-Revision-Date: 2010-06-11 23:49+0300\n"
+"Last-Translator: jackyfox <fox.sawyer@gmail.com>\n"
+"Language-Team:  <fox.sawyer@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../sociable.php:1037
+msgid "Share and Enjoy:"
+msgstr ""
+
+#: ../sociable.php:1163
+msgid "Sociable disabled?"
+msgstr ""
+
+#: ../sociable.php:1201
+msgid "Restored all settings to defaults."
+msgstr ""
+
+#: ../sociable.php:1262
+msgid "Saved changes."
+msgstr ""
+
+#: ../sociable.php:1289
+msgid "Sociable RE Options"
+msgstr ""
+
+#: ../sociable.php:1293
+msgid "Sites"
+msgstr ""
+
+#: ../sociable.php:1294
+msgid "Check the sites you want to appear on your site. Drag and drop sites to reorder them."
+msgstr ""
+
+#: ../sociable.php:1341
+msgid "Disable sprite usage for images?"
+msgstr ""
+
+#: ../sociable.php:1349
+msgid "Disable alpha mask on share toolbar?"
+msgstr ""
+
+#: ../sociable.php:1357
+msgid "Tagline"
+msgstr ""
+
+#: ../sociable.php:1360
+msgid "Change the text displayed in front of the icons below. For complete customization, copy the contents of <em>sociable.css</em> in the Sociable plugin directory to your theme's <em>style.css</em> and disable the use of the sociable stylesheet below."
+msgstr ""
+
+#: ../sociable.php:1366
+msgid "Position:"
+msgstr ""
+
+#: ../sociable.php:1369
+msgid "The icons appear at the end of each blog post, and posts may show on many different types of pages. Depending on your theme and audience, it may be tacky to display icons on all types of pages."
+msgstr ""
+
+#: ../sociable.php:1377
+msgid "Front page of the blog"
+msgstr ""
+
+#: ../sociable.php:1378
+msgid "Individual blog posts"
+msgstr ""
+
+#: ../sociable.php:1379
+msgid "Individual WordPress \"Pages\""
+msgstr ""
+
+#: ../sociable.php:1380
+msgid "Category archives"
+msgstr ""
+
+#: ../sociable.php:1381
+msgid "Tag listings"
+msgstr ""
+
+#: ../sociable.php:1382
+msgid "Date-based archives"
+msgstr ""
+
+#: ../sociable.php:1383
+msgid "Author archives"
+msgstr ""
+
+#: ../sociable.php:1384
+msgid "Search results"
+msgstr ""
+
+#: ../sociable.php:1385
+msgid "RSS feed items"
+msgstr ""
+
+#: ../sociable.php:1390
+msgid "Use CSS:"
+msgstr ""
+
+#: ../sociable.php:1393
+msgid "Use the sociable stylesheet?"
+msgstr ""
+
+#: ../sociable.php:1398
+msgid "Use Text Links:"
+msgstr ""
+
+#: ../sociable.php:1401
+msgid "Use text links without images?"
+msgstr ""
+
+#: ../sociable.php:1406
+msgid "Image directory"
+msgstr ""
+
+#: ../sociable.php:1409
+msgid "Sociable comes with a nice set of images, if you want to replace those with your own, enter the URL where you've put them in here, and make sure they have the same name as the ones that come with Sociable."
+msgstr ""
+
+#: ../sociable.php:1411
+msgid "(automatically disables sprite usage)"
+msgstr ""
+
+#: ../sociable.php:1416
+msgid "Use thickbox/iframe on links?:"
+msgstr ""
+
+#: ../sociable.php:1420
+msgid "width:"
+msgstr ""
+
+#: ../sociable.php:1421
+msgid "height:"
+msgstr ""
+
+#: ../sociable.php:1426
+msgid "Open in new window:"
+msgstr ""
+
+#: ../sociable.php:1429
+msgid "Use <code>target=_blank</code> on links? (Forces links to open a new window)"
+msgstr ""
+
+#: ../sociable.php:1434
+msgid "awe.sm:"
+msgstr ""
+
+#: ../sociable.php:1437
+msgid "You can choose to automatically have the links posted to certain sites shortened via awe.sm and encoded with the channel info and your API Key."
+msgstr ""
+
+#: ../sociable.php:1438
+msgid "Enable awe.sm URLs?"
+msgstr ""
+
+#: ../sociable.php:1439
+msgid "awe.sm API Key:"
+msgstr ""
+
+#: ../sociable.php:1445
+msgid "Save Changes"
+msgstr ""
+
+#: ../sociable.php:1446
+msgid "Restore Built-in Defaults"
+msgstr ""
+
+#: ../sociable.php:1451
+msgid "Like this plugin?"
+msgstr ""
+
+#: ../sociable.php:1452
+msgid "Why not do any of the following:"
+msgstr ""
+
+#: ../sociable.php:1454
+msgid "Link to it so other folks can find out about it."
+msgstr ""
+
+#: ../sociable.php:1455
+msgid "<a href=\"http://wordpress.org/extend/plugins/sociable/\">Give it a good rating</a> on WordPress.org."
+msgstr ""
+
+#: ../sociable.php:1456
+msgid "Donate"
+msgstr ""
+
+#: ../sociable.php:1458
+msgid "Need support?"
+msgstr ""
+
+#: ../sociable.php:1459
+msgid "If you have any problems or good ideas, please talk about them in the <a href=\"http://wordpress.org/tags/sociable-re\">Support forums</a> or <a href=\"http://www.jackyfox.com/sociable-re/\">plugin page</a>."
+msgstr ""
+
+#: ../sociable.php:1461
+msgid "Credits"
+msgstr ""
+
+#: ../sociable.php:1462
+msgid "<a href=\"http://www.jackyfox.com/sociable-re/\">Sociable</a> was originally developed by <a href=\"http://push.cx/\">Peter Harkins</a> and was been maintained by <a href=\"http://yoast.com/\">Joost de Valk</a> since the beginning of 2008. On September of 2009, the new home of Sociable is <a href=\"http://blogplay.com\">BlogPlay.com</a>. It's released under the GNU GPL version 2. On June of 2010, new version is released in russian by <a href=\"http://www.jackyfox.com/\">Eugene Padlov</a>."
+msgstr ""
+
+#: ../sociable.php:1493
+msgid "Settings"
+msgstr ""
+
