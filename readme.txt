@@ -1,4 +1,4 @@
-=== Sociable ===
+=== Sociable RE ===
 Contributors: jackyfox
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NRYHZVJNPGGA6
 Tags: social, bookmark, bookmarks, bookmarking, social bookmarking, social bookmarks, blogplay
