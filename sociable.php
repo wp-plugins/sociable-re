@@ -3,7 +3,7 @@
 Plugin Name: Sociable RE
 Plugin URI: http://www.jackyfox.com/sociable-re/
 Description: Sociable. Русская версия. Добавляет кнопки автоматической публикации ссылок на страницы вашего блога в популярных социальных сетях и сервисах закладок.
-Version: 3.5.2.1
+Version: 3.5.2.2
 Author: Eugene Padlov
 Author URI: http://www.jackyfox.com/
 License: GPL2
@@ -209,10 +209,17 @@ $sociable_known_sites = Array(
 		'spriteCoordinates' => Array(73,19),
 	),
 	
+	'Google Buzz' => Array (
+		'favicon' => 'buzz.png',
+		'url' => 'http://www.google.com/reader/link?url=PERMALINK&amp;snippet=EXCERPT&amp;title=TITLE&amp;srcURL='.get_bloginfo( 'url' ).'&amp;srcTitle='.get_bloginfo( 'title' ),
+		'description' => 'Google Bookmarks',
+		'spriteCoordinates' => Array(127,91),
+	),
+	
 	'Google' => Array (
 		'favicon' => 'googlebookmark.png',
 		'url' => 'http://www.google.com/bookmarks/mark?op=edit&amp;bkmk=PERMALINK&amp;title=TITLE&amp;annotation=EXCERPT',
-		'description' => 'Google Bookmarks',
+		'description' => 'В Живую Ленту Google',
 		'spriteCoordinates' => Array(91,19),
 	),
 	
@@ -1017,6 +1024,7 @@ function sociable_restore_config($force=false) {
 			'MySpace',
 			'FriendFeed',
 			'Google',
+			'Google Buzz',
 			'Яндекс.Закладки',
 			'LinkedIn',
 			'Reddit',
