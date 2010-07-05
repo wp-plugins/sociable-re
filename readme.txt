@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: social, bookmark, bookmarks, bookmarking, social bookmarking, social bookmarks, blogplay
 Requires at least: 2.8
 Tested up to: 3.0
-Stable tag: 3.5.2.2
+Stable tag: 3.5.2.3
 
 Добавляет кнопки для публикации ссылок на страницы блога в соц. сетях.
 
@@ -32,6 +32,8 @@ Stable tag: 3.5.2.2
 2. Sociable RE в действии.
 
 == Changelog ==
+= 3.5.2.3 =
+* Исправлена ошибка при работе с MisterWong.ru
 
 = 3.5.2.2 = 
 * Добавлен Google Buzz (Живая лента)
@@ -330,6 +332,8 @@ Special thanks to [Robert Harm](http://www.die-truppe.com/) for coming up with l
 Полную информацию по плагину ищите на [Sociable RE](http://www.jackyfox.com/sociable-re/).
 
 == Upgrade Notice ==
+= 3.5.2.3 =
+Обновитесь, чтобы устранить проблему с добавлением ссылок в MisterWong.ru
 
 = 3.5.2.2 = 
 Появилась возможность публиковать ссылки в Google Buzz (Живую ленту)

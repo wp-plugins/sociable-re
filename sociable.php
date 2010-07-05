@@ -3,7 +3,7 @@
 Plugin Name: Sociable RE
 Plugin URI: http://www.jackyfox.com/sociable-re/
 Description: Sociable. Русская версия. Добавляет кнопки автоматической публикации ссылок на страницы вашего блога в популярных социальных сетях и сервисах закладок.
-Version: 3.5.2.2
+Version: 3.5.2.3
 Author: Eugene Padlov
 Author URI: http://www.jackyfox.com/
 License: GPL2
@@ -746,7 +746,7 @@ $sociable_known_sites = Array(
     ),
 	'MisterWong.RU' => Array(
 		'favicon' => 'misterwong.png',
-		'url' => 'http://www.mister-wong.ru/index.php?action=addur&amp;bm_url=PERMALINK&amp;bm_description=TITLE&amp;',
+		'url' => 'http://www.mister-wong.ru/index.php?action=addurl&amp;bm_url=PERMALINK&amp;bm_description=TITLE&amp;',
 		'spriteCoordinates' => Array(73,37),
 	),
 );
