@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: social, bookmark, bookmarks, bookmarking, social bookmarking, social bookmarks, blogplay
 Requires at least: 2.8
 Tested up to: 3.0
-Stable tag: 3.5.2.3
+Stable tag: 3.5.2.4
 
 Добавляет кнопки для публикации ссылок на страницы блога в соц. сетях.
 
@@ -22,7 +22,8 @@ Stable tag: 3.5.2.3
 * МоёМесто.ru
 * Сто закладок
 * MisterWong.RU
-* Google Buzz, он же &laquo;Живая лента Google&raquo;.
+* Google Buzz, он же &laquo;Живая лента Google&raquo;
+* Google Orkut.
 
 Чего-то не хватает? Запросите добавление Вашего любимого сайта на [странице плагина](http://www.jackyfox.com/sociable-re/)
 
@@ -32,6 +33,9 @@ Stable tag: 3.5.2.3
 2. Sociable RE в действии.
 
 == Changelog ==
+= 3.5.2.4 =
+* Добавлена социальная сеть Orkut
+
 = 3.5.2.3 =
 * Исправлена ошибка при работе с MisterWong.ru
 
@@ -332,6 +336,9 @@ Special thanks to [Robert Harm](http://www.die-truppe.com/) for coming up with l
 Полную информацию по плагину ищите на [Sociable RE](http://www.jackyfox.com/sociable-re/).
 
 == Upgrade Notice ==
+= 3.5.2.4 =
+Если вам хочется дать пользователям возможность делиться ссылками в соц.сети Оркут, придется обновиться
+
 = 3.5.2.3 =
 Обновитесь, чтобы устранить проблему с добавлением ссылок в MisterWong.ru
 
