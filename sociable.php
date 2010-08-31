@@ -3,7 +3,7 @@
 Plugin Name: Sociable RE
 Plugin URI: http://www.jackyfox.com/sociable-re/
 Description: Sociable. Русская версия. Добавляет кнопки автоматической публикации ссылок на страницы вашего блога в популярных социальных сетях и сервисах закладок.
-Version: 3.5.2.4
+Version: 3.5.2.5
 Author: Eugene Padlov
 Author URI: http://www.jackyfox.com/
 License: GPL2
@@ -212,14 +212,14 @@ $sociable_known_sites = Array(
 	'Google Buzz' => Array (
 		'favicon' => 'buzz.png',
 		'url' => 'http://www.google.com/reader/link?url=PERMALINK&amp;snippet=EXCERPT&amp;title=TITLE&amp;srcURL='.get_bloginfo( 'url' ).'&amp;srcTitle='.get_bloginfo( 'title' ),
-		'description' => 'Google Bookmarks',
+		'description' => 'Google Buzz',
 		'spriteCoordinates' => Array(127,91),
 	),
 	
 	'Google' => Array (
 		'favicon' => 'googlebookmark.png',
 		'url' => 'http://www.google.com/bookmarks/mark?op=edit&amp;bkmk=PERMALINK&amp;title=TITLE&amp;annotation=EXCERPT',
-		'description' => 'В Живую Ленту Google',
+		'description' => 'В закладки Google',
 		'spriteCoordinates' => Array(91,19),
 	),
 	
@@ -325,6 +325,12 @@ $sociable_known_sites = Array(
 		'favicon' => 'live.png',
 		'url' => 'https://favorites.live.com/quickadd.aspx?marklet=1&amp;url=PERMALINK&amp;title=TITLE',
 		'spriteCoordinates' => Array(37,37),
+	),
+	
+	'LiveJournal' => Array(
+		'favicon' => 'lj.png',
+		'url' => 'http://www.livejournal.com/update.bml?event=TITLE&lt;br&gt;EXCERPT+&lt;a+href=&quot;PERMALINK&quot;&gt;BLOGNAME&lt;/a&gt;&amp;subject=TITLE+&lt;+BLOGNAME',
+		'spriteCoordinates' => Array(163,92),
 	),
 
 	'Meneame' => Array(
@@ -797,7 +803,7 @@ function sociable_html($display=array()) {
 		return "";
 
 	// Load the post's and blog's data
-	$blogname 	= urlencode(get_bloginfo('name')." ".get_bloginfo('description'));
+	$blogname 	= urlencode(get_bloginfo('name'));
 	$blogrss	= get_bloginfo('rss2_url'); 
 	$post 		= $wp_query->post;
 	
@@ -1027,6 +1033,7 @@ function sociable_restore_config($force=false) {
 			'Мой Мир',
 			'Facebook',
 			'Twitter',
+			'LiveJournal',
 			'MySpace',
 			'FriendFeed',
 			'Google',
