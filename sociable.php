@@ -331,6 +331,7 @@ $sociable_known_sites = Array(
 		'favicon' => 'lj.png',
 		'url' => 'http://www.livejournal.com/update.bml?event=TITLE&lt;br&gt;EXCERPT+&lt;a+href=&quot;PERMALINK&quot;&gt;BLOGNAME&lt;/a&gt;&amp;subject=TITLE+&lt;+BLOGNAME',
 		'spriteCoordinates' => Array(163,92),
+		'supportsIframe' => false,
 	),
 
 	'Meneame' => Array(
