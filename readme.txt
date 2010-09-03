@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: social, bookmark, bookmarks, bookmarking, social bookmarking, social bookmarks, blogplay
 Requires at least: 2.8
 Tested up to: 3.0.1
-Stable tag: 3.5.2.6
+Stable tag: 3.5.2.7
 
 Добавляет кнопки для публикации ссылок на страницы блога в соц. сетях.
 
@@ -34,6 +34,9 @@ Stable tag: 3.5.2.6
 2. Sociable RE в действии.
 
 == Changelog ==
+= 3.5.2.7 =
+* Починил ссылку на Google Buzz (Живую ленту). Спасибо за конструктивную критику тов. qnub
+
 = 3.5.2.6 =
 * ЖЖ не хочет нормально грузить визуальный редактор в thickbox во всех браузерах, кроме Google Chrome. Поэтому начальная часть поста, передаваемая в ЖЖ, не отображается. Пришлось отключить thickbox для ЖЖ
 
@@ -344,6 +347,9 @@ Special thanks to [Robert Harm](http://www.die-truppe.com/) for coming up with l
 Полную информацию по плагину ищите на [Sociable RE](http://www.jackyfox.com/sociable-re/).
 
 == Upgrade Notice ==
+= 3.5.2.7 =
+Обязательно обновитесь, чтобы публикация в Google Buzz нормально заработала
+
 = 3.5.2.6 =
 Если ваши пользователи испытывают проблемы при работе плагина с Живым Журналом, обновитесь.
 
