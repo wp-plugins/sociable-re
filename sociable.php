@@ -3,7 +3,7 @@
 Plugin Name: Sociable RE
 Plugin URI: http://www.jackyfox.com/sociable-re/
 Description: Sociable. Русская версия. Добавляет кнопки автоматической публикации ссылок на страницы вашего блога в популярных социальных сетях и сервисах закладок.
-Version: 3.5.2.7
+Version: 3.5.2.8
 Author: Eugene Padlov
 Author URI: http://www.jackyfox.com/
 License: GPL2
@@ -84,6 +84,12 @@ $sociable_known_sites = Array(
 		'supportsIframe' => false,
 	),
 
+	'Blogger' => Array(
+		'favicon' => 'blogger.png',
+		'url' => 'http://www.blogger.com/blog_this.pyra?t=EXCERPT&amp;u=PERMALINK&amp;n=TITLE',
+		'spriteCoordinates' => Array(181,91),
+	),
+	
 	'blogmarks' => Array(
 		'favicon' => 'blogmarks.png',
 		'url' => 'http://blogmarks.net/my/new.php?mini=1&amp;simple=1&amp;url=PERMALINK&amp;title=TITLE',
@@ -763,6 +769,11 @@ $sociable_known_sites = Array(
 		'url' => 'http://www.mister-wong.ru/index.php?action=addurl&amp;bm_url=PERMALINK&amp;bm_description=TITLE&amp;',
 		'spriteCoordinates' => Array(73,37),
 	),
+	'Одноклассники' => Array(
+		'favicon' => 'odnoklass.png',
+		'url' => 'http://www.odnoklassniki.ru/dk?st.cmd=addShare&st._surl=PERMALINK',
+		'spriteCoordinates' => Array(200,91),
+	),
 );
 
 /**
@@ -816,6 +827,7 @@ function sociable_html($display=array()) {
 	}
 	// Clean the excerpt for use with links
 	$excerpt	= str_replace('+','%20',$excerpt);
+	$excerpt	= str_replace('?','.',$excerpt);
 	$permalink 	= urlencode(get_permalink($post->ID));
 	$title 		= str_replace('+','%20',urlencode($post->post_title));
 	
@@ -918,7 +930,7 @@ function sociable_html($display=array()) {
 		if (get_option('sociable_useiframe') && !isset($site['supportsIframe'])) {
 			$iframeWidth = get_option('sociable_iframewidth',900);
 			$iframeHeight = get_option('sociable_iframeheight',500);
-			$link .= 'class="thickbox" href="' . $url . "?TB_iframe=true&amp;height=$iframeHeight&amp;width=$iframeWidth\">";
+			$link .= 'class="thickbox" href="' . $url . "&amp;TB_iframe=true&amp;height=$iframeHeight&amp;width=$iframeWidth\">";
 		} else {
 			if(!($sitename=="Add to favorites")) {
 				if (get_option('sociable_usetargetblank')) {
