@@ -86,7 +86,7 @@ $sociable_known_sites = Array(
 
 	'Blogger' => Array(
 		'favicon' => 'blogger.png',
-		'url' => 'http://www.blogger.com/blog_this.pyra?t=EXCERPT&amp;u=PERMALINK&amp;n=TITLE',
+		'url' => 'http://www.blogger.com/blog_this.pyra?n=TITLE&amp;u=PERMALINK',
 		'spriteCoordinates' => Array(181,91),
 	),
 	
