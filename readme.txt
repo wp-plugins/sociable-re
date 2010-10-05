@@ -4,9 +4,9 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: social, bookmark, bookmarks, bookmarking, social bookmarking, social bookmarks, blogplay
 Requires at least: 2.8
 Tested up to: 3.0.1
-Stable tag: 3.5.2.7
+Stable tag: 3.5.2.8
 
-Добавляет кнопки для публикации ссылок на страницы блога в соц. сетях.
+Добавляет кнопки для публикации ссылок в соц. сетях на страницы блога.
 
 == Description ==
 
@@ -22,9 +22,11 @@ Stable tag: 3.5.2.7
 * МоёМесто.ru
 * Сто закладок
 * MisterWong.RU
-* Google Buzz, он же &laquo;Живая лента Google&raquo;
+* Google Buzz, он же «Живая лента Google»
 * Google Orkut
-* Live Journal, он Живой Журнал.
+* Live Journal, он же Живой Журнал
+* Blogger
+* Одноклассники
 
 Чего-то не хватает? Запросите добавление Вашего любимого сайта на [странице плагина](http://www.jackyfox.com/sociable-re/)
 
@@ -34,6 +36,13 @@ Stable tag: 3.5.2.7
 2. Sociable RE в действии.
 
 == Changelog ==
+= 3.5.2.8 =
+* [upd] новая иконка для twitter'a;
+* [upd] новая иконка для digg'a;
+* [add] добавлена кнопка для Blogger;
+* [add] добавлена кнопка для Одноклассников;
+* [fix] исправлен баг со знаком вопроса в конце заголовка статьи при открытии в IFrame
+
 = 3.5.2.7 =
 * Починил ссылку на Google Buzz (Живую ленту). Спасибо за конструктивную критику тов. qnub
 
@@ -347,6 +356,9 @@ Special thanks to [Robert Harm](http://www.die-truppe.com/) for coming up with l
 Полную информацию по плагину ищите на [Sociable RE](http://www.jackyfox.com/sociable-re/).
 
 == Upgrade Notice ==
+= 3.5.2.8 =
+Приведен в актуальное состояние внешний вида кнопок твиттера и дигга. Добавлены кнопки для Blogger и Одноклассников. Устранен баг со знаком вопроса
+
 = 3.5.2.7 =
 Обязательно обновитесь, чтобы публикация в Google Buzz нормально заработала
 
@@ -368,3 +380,6 @@ Special thanks to [Robert Harm](http://www.die-truppe.com/) for coming up with l
 
 = 3.5.2.1 = 
 Первый релиз русскоязычной версии
+
+== Frequently Asked Questions ==
+Ответы на часто задаваемые вопросы вы можете найти на [странице плагина](http://www.jackyfox.com/sociable-re/)
