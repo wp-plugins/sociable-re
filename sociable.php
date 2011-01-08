@@ -3,8 +3,8 @@
 Plugin Name: Sociable RE
 Plugin URI: http://www.jackyfox.com/sociable-re/
 Description: Sociable. Русская версия. Добавляет кнопки автоматической публикации ссылок на страницы вашего блога в популярных социальных сетях и сервисах закладок.
-Version: 3.5.2.8
-Author: Eugene Padlov
+Version: 3.5.2.9
+Author: Eugene Pavlov
 Author URI: http://www.jackyfox.com/
 License: GPL2
 */
@@ -13,7 +13,7 @@ License: GPL2
 Copyright 2006 Peter Harkins (ph@malaprop.org)
 Copyright 2008-2009 Joost de Valk (joost@yoast.com)
 Copyright 2009-present Blogplay.com (info@blogplay.com)
-Copyright 2010-present Eugene Padlov (fox.sawyer@gmail.com)
+Copyright 2010-present Eugene Pavlov (fox.sawyer@gmail.com)
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -70,13 +70,13 @@ $sociable_known_sites = Array(
 		'url' => 'http://barrapunto.com/submit.pl?subj=TITLE&amp;story=PERMALINK',
 		'spriteCoordinates' => Array(1,1),
 	),
-	
+
 	'Bitacoras.com' => Array(
 		'favicon' => 'bitacoras.png',
 		'url' => 'http://bitacoras.com/anotaciones/PERMALINK',
 		'spriteCoordinates' => Array(19,1),
 	),
-	
+
 	'BlinkList' => Array(
 		'favicon' => 'blinklist.png',
 		'url' => 'http://www.blinklist.com/index.php?Action=Blink/addblink.php&amp;Url=PERMALINK&amp;Title=TITLE',
@@ -89,7 +89,7 @@ $sociable_known_sites = Array(
 		'url' => 'http://www.blogger.com/blog_this.pyra?n=TITLE&amp;u=PERMALINK',
 		'spriteCoordinates' => Array(181,91),
 	),
-	
+
 	'blogmarks' => Array(
 		'favicon' => 'blogmarks.png',
 		'url' => 'http://blogmarks.net/my/new.php?mini=1&amp;simple=1&amp;url=PERMALINK&amp;title=TITLE',
@@ -125,19 +125,19 @@ $sociable_known_sites = Array(
 		'url' => 'http://current.com/clipper.htm?url=PERMALINK&amp;title=TITLE',
 		'spriteCoordinates' => Array(181,1),
 	),
-	
+
 	'del.icio.us' => Array(
 		'favicon' => 'delicious.png',
 		'url' => 'http://delicious.com/post?url=PERMALINK&amp;title=TITLE&amp;notes=EXCERPT',
 		'spriteCoordinates' => Array(199,1),
 	),
-	
+
 	'Design Float' => Array(
 		'favicon' => 'designfloat.png',
 		'url' => 'http://www.designfloat.com/submit.php?url=PERMALINK&amp;title=TITLE',
 		'spriteCoordinates' => Array(217,1),
 	),
-	
+
 	'Digg' => Array(
 		'favicon' => 'digg.png',
 		'url' => 'http://digg.com/submit?phase=2&amp;url=PERMALINK&amp;title=TITLE&amp;bodytext=EXCERPT',
@@ -214,7 +214,7 @@ $sociable_known_sites = Array(
 		'url' => 'http://globalgrind.com/submission/submit.aspx?url=PERMALINK&amp;type=Article&amp;title=TITLE',
 		'spriteCoordinates' => Array(73,19),
 	),
-	
+
 	'Google Buzz' => Array (
 		'favicon' => 'buzz.png',
 		'url' => 'http://www.google.com/buzz/post?url=PERMALINK',
@@ -222,14 +222,14 @@ $sociable_known_sites = Array(
 		'spriteCoordinates' => Array(127,91),
 		'supportsIframe' => false,
 	),
-	
+
 	'Google' => Array (
 		'favicon' => 'googlebookmark.png',
 		'url' => 'http://www.google.com/bookmarks/mark?op=edit&amp;bkmk=PERMALINK&amp;title=TITLE&amp;annotation=EXCERPT',
 		'description' => 'В закладки Google',
 		'spriteCoordinates' => Array(91,19),
 	),
-	
+
 	'Gwar' => Array(
 		'favicon' => 'gwar.png',
 		'url' => 'http://www.gwar.pl/DodajGwar.html?u=PERMALINK',
@@ -309,7 +309,7 @@ $sociable_known_sites = Array(
 		'url' => 'http://linkarena.com/bookmarks/addlink/?url=PERMALINK&amp;title=TITLE',
 		'spriteCoordinates' => Array(325,19),
 	),
-	
+
 	'LinkaGoGo' => Array(
 		'favicon' => 'linkagogo.png',
 		'url' => 'http://www.linkagogo.com/go/AddNoPopup?url=PERMALINK&amp;title=TITLE',
@@ -327,13 +327,13 @@ $sociable_known_sites = Array(
 		'url' => 'http://www.linkter.hu/index.php?action=suggest_link&amp;url=PERMALINK&amp;title=TITLE',
 		'spriteCoordinates' => Array(19,37),
 	),
-	
+
 	'Live' => Array(
 		'favicon' => 'live.png',
 		'url' => 'https://favorites.live.com/quickadd.aspx?marklet=1&amp;url=PERMALINK&amp;title=TITLE',
 		'spriteCoordinates' => Array(37,37),
 	),
-	
+
 	'LiveJournal' => Array(
 		'favicon' => 'lj.png',
 		'url' => 'http://www.livejournal.com/update.bml?event=TITLE&lt;br&gt;EXCERPT+&lt;a+href=&quot;PERMALINK&quot;&gt;BLOGNAME&lt;/a&gt;&amp;subject=TITLE+&lt;+BLOGNAME',
@@ -347,7 +347,7 @@ $sociable_known_sites = Array(
 		'spriteCoordinates' => Array(55,37),
 		'supportsIframe' => false,
 	),
-	
+
 	'MisterWong' => Array(
 		'favicon' => 'misterwong.png',
 		'url' => 'http://www.mister-wong.com/addurl/?bm_url=PERMALINK&amp;bm_description=TITLE&amp;plugin=soc',
@@ -359,19 +359,19 @@ $sociable_known_sites = Array(
 		'url' => 'http://www.mister-wong.de/addurl/?bm_url=PERMALINK&amp;bm_description=TITLE&amp;plugin=soc',
 		'spriteCoordinates' => Array(73,37),
 	),
-	
+
 	'Mixx' => Array(
 		'favicon' => 'mixx.png',
 		'url' => 'http://www.mixx.com/submit?page_url=PERMALINK&amp;title=TITLE',
 		'spriteCoordinates' => Array(91,37),
 	),
-	
+
 	'muti' => Array(
 		'favicon' => 'muti.png',
 		'url' => 'http://www.muti.co.za/submit?url=PERMALINK&amp;title=TITLE',
 		'spriteCoordinates' => Array(109,37),
 	),
-	
+
 	'MyShare' => Array(
 		'favicon' => 'myshare.png',
 		'url' => 'http://myshare.url.com.tw/index.php?func=newurl&amp;url=PERMALINK&amp;desc=TITLE',
@@ -392,19 +392,19 @@ $sociable_known_sites = Array(
 		'description' => 'MSN Reporter',
 		'spriteCoordinates' => Array(163,37),
 	),
-	
+
 	'N4G' => Array(
 		'favicon' => 'n4g.png',
 		'url' => 'http://www.n4g.com/tips.aspx?url=PERMALINK&amp;title=TITLE',
 		'spriteCoordinates' => Array(181,37),
 	),
-	
+
 	'Netvibes' => Array(
 		'favicon' => 'netvibes.png',
 		'url' =>	'http://www.netvibes.com/share?title=TITLE&amp;url=PERMALINK',
 		'spriteCoordinates' => Array(199,37),
 	),
-		
+
 	'NewsVine' => Array(
 		'favicon' => 'newsvine.png',
 		'url' => 'http://www.newsvine.com/_tools/seed&amp;save?u=PERMALINK&amp;h=TITLE',
@@ -422,13 +422,13 @@ $sociable_known_sites = Array(
 		'url' => 'http://nujij.nl/jij.lynkx?t=TITLE&amp;u=PERMALINK&amp;b=EXCERPT',
 		'spriteCoordinates' => Array(253,37),
 	),
-	
+
 	'Orkut' => Array(
 		'favicon' => 'orkut.png',
 		'url' => 'http://promote.orkut.com/preview?nt=orkut.com&tt=TITLE&du=PERMALINK&cn=EXCERPT',
 		'spriteCoordinates' => Array(145,92),
 	),
-	
+
 	'Ping.fm' => Array(
 		'favicon' => 'ping.png',
 		'awesm_channel' => 'pingfm',
@@ -441,19 +441,19 @@ $sociable_known_sites = Array(
 		'url' => 'http://posterous.com/share?linkto=PERMALINK&amp;title=TITLE&amp;selection=EXCERPT',
 		'spriteCoordinates' => Array(289,37),
 	),
-	
+
 	'PDF' => Array(
 		'favicon' => 'pdf.png',
 		'url' => 'http://www.printfriendly.com/print?url=PERMALINK&amp;partner=sociable',
 		'spriteCoordinates' => Array(325,37),
 	),
-	
+
 	'Print' => Array(
 		'favicon' => 'printfriendly.png',
 		'url' => 'http://www.printfriendly.com/print?url=PERMALINK&amp;partner=sociable',
 		'spriteCoordinates' => Array(343,37),
 	),
-	
+
 	'Propeller' => Array(
 		'favicon' => 'propeller.png',
 		'url' => 'http://www.propeller.com/submit/?url=PERMALINK',
@@ -483,12 +483,12 @@ $sociable_known_sites = Array(
 		'url' => 'FEEDLINK',
 		'spriteCoordinates' => Array(73,55),
 	),
-	
+
 	'Scoopeo' => Array(
 		'favicon' => 'scoopeo.png',
 		'url' => 'http://www.scoopeo.com/scoop/new?newurl=PERMALINK&amp;title=TITLE',
 		'spriteCoordinates' => Array(91,55),
-	),	
+	),
 
 	'Segnalo' => Array(
 		'favicon' => 'segnalo.png',
@@ -513,7 +513,7 @@ $sociable_known_sites = Array(
 		'url' => 'http://socialogs.com/add_story.php?story_url=PERMALINK&amp;story_title=TITLE',
 		'spriteCoordinates' => Array(163,55),
 	),
-	
+
 	'SphereIt' => Array(
 		'favicon' => 'sphere.png',
 		'url' => 'http://www.sphere.com/search?q=sphereit:PERMALINK&amp;title=TITLE',
@@ -533,14 +533,14 @@ $sociable_known_sites = Array(
 		'supportsIframe' => false,
 	),
 
-	'Techmeme' => Array( 
+	'Techmeme' => Array(
 		'favicon' => 'techmeme.png',
-		'awesm_channel' => 'twitter-techmeme', 
-		'url' => 'http://twitter.com/home/?status=tip%20@Techmeme%20PERMALINK%20TITLE', 
+		'awesm_channel' => 'twitter-techmeme',
+		'url' => 'http://twitter.com/home/?status=tip%20@Techmeme%20PERMALINK%20TITLE',
 		'description' => 'Suggest to Techmeme via Twitter',
 		'spriteCoordinates' => Array(253,55),
 		'supportsIframe' => false,
-	), 
+	),
 
 	'Technorati' => Array(
 		'favicon' => 'technorati.png',
@@ -559,14 +559,14 @@ $sociable_known_sites = Array(
 		'url' => 'http://tipd.com/submit.php?url=PERMALINK',
 		'spriteCoordinates' => Array(307,55),
 	),
-	
+
 	'Tumblr' => Array(
 		'favicon' => 'tumblr.png',
 		'url' => 'http://www.tumblr.com/share?v=3&amp;u=PERMALINK&amp;t=TITLE&amp;s=EXCERPT',
 		'spriteCoordinates' => Array(325,55),
 		'supportsIframe' => false,
 	),
-	
+
 	'Twitter' => Array(
 		'favicon' => 'twitter.png',
 		'awesm_channel' => 'twitter',
@@ -580,21 +580,21 @@ $sociable_known_sites = Array(
 		'url' => 'http://www.upnews.it/submit?url=PERMALINK&amp;title=TITLE',
 		'spriteCoordinates' => Array(1,73),
 	),
-	
+
 	'ВКонтакте' => Array(
 		'favicon' => 'vk.png',
 		'url' => 'http://vkontakte.ru/share.php?url=PERMALINK&amp;title=TITLE&amp;description=EXCERPT',
 		'description' => 'Добавить ВКонтакте заметку об этой странице',
 		'spriteCoordinates' => Array(1,91),
 	),
-	
+
 	'Мой Мир' => Array(
 		'favicon' => 'moimir.png',
 		'url' => 'http://connect.mail.ru/share?share_url=PERMALINK',
 		'description' => 'Мой Мир',
 		'spriteCoordinates' => Array(19,91),
 	),
-	
+
 	'Webnews.de' => Array(
         'favicon' => 'webnews.png',
         'url' => 'http://www.webnews.de/einstellen?url=PERMALINK&amp;title=TITLE',
@@ -625,7 +625,7 @@ $sociable_known_sites = Array(
 		'url' => 'http://www.wikio.it/vote?url=PERMALINK',
 		'spriteCoordinates' => Array(55,73),
 	),
-	
+
 	'Wists' => Array(
 		'favicon' => 'wists.png',
 		'url' => 'http://wists.com/s.php?c=&amp;r=PERMALINK&amp;title=TITLE',
@@ -652,7 +652,7 @@ $sociable_known_sites = Array(
 		'description' => 'Yahoo! Buzz',
 		'spriteCoordinates' => Array(127,73),
 	),
-	
+
 	'Yahoo! Bookmarks' => Array(
 		'favicon' => 'yahoomyweb.png',
 		'url' => 'http://bookmarks.yahoo.com/toolbar/savebm?u=PERMALINK&amp;t=TITLE&opener=bm&amp;ei=UTF-8&amp;d=EXCERPT',
@@ -665,30 +665,30 @@ $sociable_known_sites = Array(
 		'url' => 'http://yigg.de/neu?exturl=PERMALINK&amp;exttitle=TITLE',
 		'spriteCoordinates' => Array(163,73),
 	 ),
-	 
+
 	 'Add to favorites' => Array(
 	 	'favicon' => 'addtofavorites.png',
 	 	'url' => 'javascript:AddToFavorites();',
 	 	'spriteCoordinates' => Array(181,73),
 	 	'supportsIframe' => false,
 	 ),
-	 
+
 	 'Blogplay' => Array(
 	 	'favicon' => 'blogplay.png',
 	 	'url' => 'http://blogplay.com',
 	 	'spriteCoordinates' => Array(199,73),
 	 	'supportsIframe' => false,
 	 ),
-	 
+
 	 // 3.5.2
-	 
+
 	'MOB' => Array(
         'favicon' => 'mob.png',
         'url' => 'http://www.mob.com/share.php?u=PERMALINK&t=TITLE',
         'description' => 'MOB',
 	 	'spriteCoordinates' => Array(217,73),
     ),
-    
+
 	'豆瓣' => Array(
         'favicon' => 'douban.png',
         'url' => 'http://www.douban.com/recommend/?url=PERMALINK&title=TITLE',
@@ -701,21 +701,21 @@ $sociable_known_sites = Array(
         'url' => 'http://www.douban.com/recommend/?url=PERMALINK&title=TITLE&n=1',
         'description' => '豆瓣九点',
     	'spriteCoordinates' => Array(253,73),
-    ),    
+    ),
 
     'QQ书签' => Array(
         'favicon' => 'qq.png',
         'url' => 'http://shuqian.qq.com/post?jumpback=1&title=TITLE&uri=PERMALINK',
         'description' => 'QQ书签',
     	'spriteCoordinates' => Array(271,73),
-    ),    
-    
+    ),
+
     'LaTafanera' => Array(
         'favicon' => 'latafanera.png',
         'url' => 'http://latafanera.cat/submit.php?url=PERMALINK',
     	'spriteCoordinates' => Array(289,73),
     ),
-    
+
     'SheToldMe' => Array(
         'favicon' => 'shetoldme.png',
         'url' => 'http://shetoldme.com/publish?url=PERMALINK&title=TITLE',
@@ -727,25 +727,25 @@ $sociable_known_sites = Array(
         'url' => 'http://www.viadeo.com/shareit/share/?url=PERMALINK&title=TITLE&urllanguage=fr',
     	'spriteCoordinates' => Array(325,73),
     ),
-        
+
 	'Diggita' => Array(
         'favicon' => 'diggita.png',
         'url' => 'http://www.diggita.it/submit.php?url=PERMALINK&title=TITLE',
         'description' => 'Diggita',
     	'spriteCoordinates' => Array(343,73),
-    ),   
+    ),
 	'Яндекс.Закладки' => Array(
         'favicon' => 'yaboo.png',
         'url' => 'http://zakladki.yandex.ru/userarea/links/addfromfav.asp?bAddLink_x=1&amp;lurl=PERMALINK&amp;lname=TITLE',
         'description' => 'Яндекс.Закладки',
     	'spriteCoordinates' => Array(37,91),
-    ),   
+    ),
 	'БобрДобр' => Array(
         'favicon' => 'bobr.png',
         'url' => 'http://bobrdobr.ru/addext.html?url=PERMALINK&amp;title=TITLE&amp;desc=EXCERPT',
         'description' => 'БобрДобр',
     	'spriteCoordinates' => Array(55,91),
-    ), 
+    ),
     'Memori.ru' => Array(
         'favicon' => 'memori.png',
         'url' => 'http://memori.ru/link/?sm=1&amp;u_data[url]=PERMALINK&amp;u_data[name]=TITLE&amp;u_data[descr]=EXCERPT',
@@ -774,6 +774,16 @@ $sociable_known_sites = Array(
 		'url' => 'http://www.odnoklassniki.ru/dk?st.cmd=addShare&st._surl=PERMALINK',
 		'spriteCoordinates' => Array(200,91),
 	),
+	'Блог Я.ру' => Array(
+		'favicon' => 'yaru.png',
+		'url' => 'http://wow.ya.ru/posts_share_link.xml?url=PERMALINK&title=TITLE&body=EXCERPT',
+		'spriteCoordinates' => Array(217,91),
+	),
+	'Блог Li.ру' => Array(
+		'favicon' => 'liru.png',
+		'url' => 'http://www.liveinternet.ru/journal_post.php?action=n_add&cnurl=PERMALINK&cntitle=TITLE',
+		'spriteCoordinates' => Array(235,91),
+	),
 );
 
 /**
@@ -786,7 +796,7 @@ $sociable_known_sites = Array(
  * @return string $html HTML for links list.
  */
 function sociable_html($display=array()) {
-	global $sociable_known_sites, $sociablepluginpath, $wp_query, $post; 
+	global $sociable_known_sites, $sociablepluginpath, $wp_query, $post;
 
 	if (get_post_meta($post->ID,'_sociableoff',true)) {
 		return "";
@@ -799,12 +809,12 @@ function sociable_html($display=array()) {
 
 	$active_sites = get_option('sociable_active_sites');
 
-	// If a path is specified where Sociable should find its images, use that, otherwise, 
+	// If a path is specified where Sociable should find its images, use that, otherwise,
 	// set the image path to the images subdirectory of the Sociable plugin.
 	// Image files need to be png's.
 	$imagepath = get_option('sociable_imagedir');
 	if ($imagepath == "")
-		$imagepath = $sociablepluginpath.'images/';		
+		$imagepath = $sociablepluginpath.'images/';
 
 	// if no sites are specified, display all active
 	// have to check $active_sites has content because WP
@@ -817,9 +827,9 @@ function sociable_html($display=array()) {
 
 	// Load the post's and blog's data
 	$blogname 	= urlencode(get_bloginfo('name'));
-	$blogrss	= get_bloginfo('rss2_url'); 
+	$blogrss	= get_bloginfo('rss2_url');
 	$post 		= $wp_query->post;
-	
+
 	// Grab the excerpt, if there is no excerpt, create one
 	$excerpt	= urlencode(strip_tags(strip_shortcodes($post->post_excerpt)));
 	if ($excerpt == "") {
@@ -830,12 +840,12 @@ function sociable_html($display=array()) {
 	$excerpt	= str_replace('?','.',$excerpt);
 	$permalink 	= urlencode(get_permalink($post->ID));
 	$title 		= str_replace('+','%20',urlencode($post->post_title));
-	
+
 	$rss 		= urlencode(get_bloginfo('ref_url'));
 
 	// Start preparing the output
 	$html = "\n<div class=\"sociable\">\n";
-	
+
 	// If a tagline is set, display it above the links list
 	$tagline = get_option("sociable_tagline");
 	if ($tagline != "") {
@@ -843,7 +853,7 @@ function sociable_html($display=array()) {
 		$html .= stripslashes($tagline);
 		$html .= "\n</div>";
 	}
-	
+
 	/**
 	 * Start the list of links
 	 */
@@ -866,7 +876,7 @@ function sociable_html($display=array()) {
 		$url = str_replace('BLOGNAME', $blogname, $url);
 		$url = str_replace('EXCERPT', $excerpt, $url);
 		$url = str_replace('FEEDLINK', $blogrss, $url);
-		
+
 		if (isset($site['description']) && $site['description'] != "") {
 			$description = $site['description'];
 		} else {
@@ -877,7 +887,7 @@ function sociable_html($display=array()) {
 			/**
 			 * if awe.sm is enabled and it is an awe.sm supported site, use awe.sm
 			 */
-			$permalink = str_replace('&', '%2526', $permalink); 
+			$permalink = str_replace('&', '%2526', $permalink);
 			$destination = str_replace('PERMALINK', 'TARGET', $url);
 			$destination = str_replace('&amp;', '%26', $destination);
 			$channel = urlencode($site['awesm_channel']);
@@ -886,21 +896,21 @@ function sociable_html($display=array()) {
 			if ($_GET['awesm']) {
 				/**
 				 * if the page was arrived at through an awe.sm URL, make that the parent
-				 */ 
+				 */
 				$parent = $_GET['awesm'];
 				$parentargument = '&p=' . $parent;
-			} 
+			}
 
 			if (strpos($channel, 'direct') != false) {
 				$url = $sociablepluginpath.'awesmate.php?c='.$channel.'&t='.$permalink.'&d='.$destination.'&dir=true'.$parentargument;
 			} else {
-				$url = $sociablepluginpath.'awesmate.php?c='.$channel.'&t='.$permalink.'&d='.$destination.$parentargument;	
+				$url = $sociablepluginpath.'awesmate.php?c='.$channel.'&t='.$permalink.'&d='.$destination.$parentargument;
 			}
 		} else {
 			/**
 			 * if awe.sm is not used, simply replace PERMALINK with $permalink
-			 */ 
-			$url = str_replace('PERMALINK', $permalink, $url);		
+			 */
+			$url = str_replace('PERMALINK', $permalink, $url);
 		}
 
 		/**
@@ -915,10 +925,10 @@ function sociable_html($display=array()) {
 		} else {
 			$link = '<li>';
 		}
-		
+
 		/**
-		 * Start building the link, nofollow it to make sure Search engines don't follow it, 
-		 * and optionally add target=_blank to open in a new window if that option is set in the 
+		 * Start building the link, nofollow it to make sure Search engines don't follow it,
+		 * and optionally add target=_blank to open in a new window if that option is set in the
 		 * backend.
 		 */
 		$link .= '<a ';
@@ -938,12 +948,12 @@ function sociable_html($display=array()) {
 				}
 				$link .= " href=\"".$url."\" title=\"$description\">";
 			} else {
-				$link .= " href=\"$url\" title=\"$description\">";			
-			} 
+				$link .= " href=\"$url\" title=\"$description\">";
+			}
 		}
-		
+
 		/**
-		 * If the option to use text links is enabled in the backend, display a text link, otherwise, 
+		 * If the option to use text links is enabled in the backend, display a text link, otherwise,
 		 * display an image.
 		 */
 		if (get_option('sociable_usetextlinks')) {
@@ -978,7 +988,7 @@ function sociable_html($display=array()) {
 			$link .= " />";
 		}
 		$link .= "</a></li>";
-		
+
 		/**
 		 * Add the list item to the output HTML, but allow other plugins to filter the content first.
 		 * This is used for instance in the Google Analytics for WordPress plugin to track clicks
@@ -1000,7 +1010,7 @@ $sociable_contitionals = get_option('sociable_conditionals');
 if (is_array($sociable_contitionals) and in_array(true, $sociable_contitionals)) {
 	add_filter('the_content', 'sociable_display_hook');
 	add_filter('the_excerpt', 'sociable_display_hook');
-	
+
 	/**
 	 * Loop through the settings and check whether Sociable should be outputted.
 	 */
@@ -1086,22 +1096,22 @@ function sociable_restore_config($force=false) {
 
 	if ( $force OR !( get_option('sociable_usecss') ) )
 		update_option('sociable_usecss', true);
-		
+
 	if ( $force or !( get_option('sociable_iframewidth')))	{
 		update_option('sociable_iframewidth',900);
 	}
 	if ( $force or !( get_option('sociable_iframeheight')))	{
 		update_option('sociable_iframeheight',500);
 	}
-	
+
 	if ( $force or !( get_option('sociable_disablealpha')))	{
 		update_option('sociable_disablealpha',false);
 	}
-	
+
 	if ( $force or !( get_option('sociable_disablesprite')) ) {
 		update_option('sociable_disablesprite',false);
 	}
-	
+
 }
 
 /**
@@ -1120,11 +1130,11 @@ add_action('admin_menu', 'sociable_admin_menu');
 function sociable_admin_js() {
 	if (isset($_GET['page']) && $_GET['page'] == 'Sociable') {
 		global $sociablepluginpath;
-		
-		wp_enqueue_script('jquery'); 
-		wp_enqueue_script('jquery-ui-core',false,array('jquery')); 
-		wp_enqueue_script('jquery-ui-sortable',false,array('jquery','jquery-ui-core')); 
-		wp_enqueue_script('sociable-js',$sociablepluginpath.'sociable-admin.js', array('jquery','jquery-ui-core','jquery-ui-sortable')); 
+
+		wp_enqueue_script('jquery');
+		wp_enqueue_script('jquery-ui-core',false,array('jquery'));
+		wp_enqueue_script('jquery-ui-sortable',false,array('jquery','jquery-ui-core'));
+		wp_enqueue_script('sociable-js',$sociablepluginpath.'sociable-admin.js', array('jquery','jquery-ui-core','jquery-ui-sortable'));
 	}
 }
 add_action('admin_print_scripts', 'sociable_admin_js');
@@ -1136,7 +1146,7 @@ add_action('admin_print_scripts', 'sociable_admin_js');
 function sociable_admin_css() {
 	global $sociablepluginpath;
 	if (isset($_GET['page']) && $_GET['page'] == 'Sociable')
-		wp_enqueue_style('sociable-css',$sociablepluginpath.'sociable-admin.css'); 
+		wp_enqueue_style('sociable-css',$sociablepluginpath.'sociable-admin.css');
 }
 add_action('admin_print_styles', 'sociable_admin_css');
 
@@ -1149,7 +1159,7 @@ function sociable_js() {
 	{
 		global $sociablepluginpath;
 		wp_enqueue_script('jquery');
-		wp_enqueue_script('sociable-thickbox',$sociablepluginpath.'thickbox/thickbox.js',array('jquery')); 	
+		wp_enqueue_script('sociable-thickbox',$sociablepluginpath.'thickbox/thickbox.js',array('jquery'));
 	}
 	if (in_array('Add to favorites',get_option('sociable_active_sites'))) {
 		global $sociablepluginpath;
@@ -1157,8 +1167,8 @@ function sociable_js() {
 	}
 	if (in_array('Wists', get_option('sociable_active_sites'))) {
 		global $sociablepluginpath;
-		wp_enqueue_script('sociable-wists',$sociablepluginpath.'wists.js'); 
-	}	
+		wp_enqueue_script('sociable-wists',$sociablepluginpath.'wists.js');
+	}
 }
 add_action('wp_print_scripts', 'sociable_js');
 
@@ -1172,7 +1182,7 @@ function sociable_css() {
 	}
 	if (get_option('sociable_usecss') == true) {
 		global $sociablepluginpath;
-		wp_enqueue_style('sociable-front-css',$sociablepluginpath.'sociable.css'); 
+		wp_enqueue_style('sociable-front-css',$sociablepluginpath.'sociable.css');
 	}
 }
 add_action('wp_print_styles', 'sociable_css');
@@ -1193,7 +1203,7 @@ function sociable_meta() {
 	$sociableoff = false;
 	if (get_post_meta($post->ID,'_sociableoff',true)) {
 		$sociableoff = true;
-	} 
+	}
 	?>
 	<input type="checkbox" id="sociableoff" name="sociableoff" <?php checked($sociableoff); ?>/> <label for="sociableoff"><?php _e('Sociable disabled?','sociable') ?></label>
 	<?php
@@ -1229,7 +1239,7 @@ function sociable_submenu() {
 	global $sociable_known_sites, $sociable_date, $sociablepluginpath;
 
 	$sociable_known_sites = apply_filters('sociable_known_sites',$sociable_known_sites);
-	
+
 	if (isset($_REQUEST['restore']) && $_REQUEST['restore']) {
 		check_admin_referer('sociable-config');
 		sociable_restore_config(true);
@@ -1255,7 +1265,7 @@ function sociable_submenu() {
 			else
 				update_option('sociable_'.$val,false);
 		}
-		
+
 		if (isset($_POST['iframewidth']) && is_numeric($_POST['iframewidth'])) {
 			update_option('sociable_iframewidth',$_POST['iframewidth']);
 		} else {
@@ -1266,49 +1276,49 @@ function sociable_submenu() {
 		} else {
 			update_option('sociable_iframeheight',500);
 		}
-		
+
 		foreach ( array('awesmapikey', 'tagline', 'imagedir') as $val ) {
 			if ( !$_POST[$val] )
 				update_option( 'sociable_'.$val, '');
 			else
 				update_option( 'sociable_'.$val, $_POST[$val] );
 		}
-		
+
 		if (isset($_POST["imagedir"]) && !trim($_POST["imagedir"]) == "") {
 			update_option('sociable_disablesprite',true);
 		}
-		
+
 		/**
 		 * Update conditional displays
 		 */
 		$conditionals = Array();
 		if (!$_POST['conditionals'])
 			$_POST['conditionals'] = Array();
-		
+
 		$curconditionals = get_option('sociable_conditionals');
 		if (!array_key_exists('is_feed',$curconditionals)) {
 			$curconditionals['is_feed'] = false;
 		}
 		foreach($curconditionals as $condition=>$toggled)
 			$conditionals[$condition] = array_key_exists($condition, $_POST['conditionals']);
-			
+
 		update_option('sociable_conditionals', $conditionals);
 
 		sociable_message(__("Saved changes.", 'sociable'));
 	}
-	
+
 	/**
 	 * Show active sites first and in the right order.
 	 */
 	$active_sites = get_option('sociable_active_sites');
-	$active = Array(); 
+	$active = Array();
 	$disabled = $sociable_known_sites;
 	foreach( $active_sites as $sitename ) {
 		$active[$sitename] = $disabled[$sitename];
 		unset($disabled[$sitename]);
 	}
 	uksort($disabled, "strnatcasecmp");
-	
+
 	/**
 	 * Display options.
 	 */
@@ -1342,13 +1352,13 @@ function sociable_submenu() {
 						/>
 						<?php
 						$imagepath = get_option('sociable_imagedir');
-						
+
 						if ($imagepath == "") {
 							$imagepath = $sociablepluginpath.'images/';
-						} else {		
+						} else {
 							$imagepath .= (substr($imagepath,strlen($imagepath)-1,1)=="/") ? "" : "/";
 						}
-						
+
 						if (!isset($site['spriteCoordinates']) || get_option('sociable_disablesprite')) {
 							if (strpos($site['favicon'], 'http') === 0) {
 								$imgsrc = $site['favicon'];
@@ -1362,7 +1372,7 @@ function sociable_submenu() {
 							$spriteCoords = $site['spriteCoordinates'];
 							echo "<img src=\"$imgsrc\" width=\"16\" height=\"16\" style=\"background: transparent url($services_sprite_url) no-repeat; background-position:-$spriteCoords[0]px -$spriteCoords[1]px\" />";
 						}
-						
+
 						echo $sitename; ?>
 					</li>
 				<?php } ?>
@@ -1378,7 +1388,7 @@ function sociable_submenu() {
 		<td>
 			<input type="checkbox" name="disablesprite" <?php checked( get_option('sociable_disablesprite'), true ) ; ?> />
 		</td>
-	</tr>	
+	</tr>
 	<tr>
 		<th scope="row" valign="top">
 			<?php _e("Disable alpha mask on share toolbar?", "sociable"); ?>
@@ -1386,7 +1396,7 @@ function sociable_submenu() {
 		<td>
 			<input type="checkbox" name="disablealpha" <?php checked( get_option('sociable_disablealpha'), true ) ; ?> />
 		</td>
-	</tr>	
+	</tr>
 	<tr>
 		<th scope="row" valign="top">
 			<?php _e("Tagline", "sociable"); ?>
@@ -1454,7 +1464,7 @@ function sociable_submenu() {
 			<input type="checkbox" name="useiframe" <?php checked( get_option('sociable_useiframe'), true ); ?> />
 			<?php _e("width:", "sociable")?> <input type="text" name="iframewidth" value="<?php echo esc_attr(stripslashes(get_option('sociable_iframewidth',900))); ?>" />
 			<?php _e("height:", "sociable")?> <input type="text" name="iframeheight" value="<?php echo esc_attr(stripslashes(get_option('sociable_iframeheight',500))); ?>" />
-		</td>		
+		</td>
 	</tr>
 	<tr>
 		<th scope="row" valign="top">
@@ -1462,7 +1472,7 @@ function sociable_submenu() {
 		</th>
 		<td>
 			<input type="checkbox" name="usetargetblank" <?php checked( get_option('sociable_usetargetblank'), true ); ?> /> <?php _e("Use <code>target=_blank</code> on links? (Forces links to open a new window)", "sociable"); ?>
-		</td>		
+		</td>
 	</tr>
 	<tr>
 		<th scope="row" valign="top">
@@ -1513,7 +1523,7 @@ function sociable_add_ozh_adminmenu_icon( $hook ) {
 	if ($hook == 'Sociable') return $sociableicon;
 	return $hook;
 }
-add_filter( 'ozh_adminmenu_icon', 'sociable_add_ozh_adminmenu_icon' );				
+add_filter( 'ozh_adminmenu_icon', 'sociable_add_ozh_adminmenu_icon' );
 
 /**
  * Add a settings link to the Plugins page, so people can go straight from the plugin page to the
@@ -1523,7 +1533,7 @@ function sociable_filter_plugin_actions( $links, $file ){
 	// Static so we don't call plugin_basename on every plugin row.
 	static $this_plugin;
 	if ( ! $this_plugin ) $this_plugin = plugin_basename(__FILE__);
-	
+
 	if ( $file == $this_plugin ){
 		$settings_link = '<a href="options-general.php?page=Sociable">' . __('Settings') . '</a>';
 		array_unshift( $links, $settings_link ); // before other links

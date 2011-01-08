@@ -3,8 +3,8 @@ Contributors: jackyfox
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NRYHZVJNPGGA6
 Tags: social, bookmark, bookmarks, bookmarking, social bookmarking, social bookmarks, blogplay
 Requires at least: 2.8
-Tested up to: 3.0.1
-Stable tag: 3.5.2.8
+Tested up to: 3.0.4
+Stable tag: 3.5.2.9
 
 Добавляет кнопки для публикации ссылок в соц. сетях на страницы блога.
 
@@ -27,6 +27,8 @@ Stable tag: 3.5.2.8
 * Live Journal, он же Живой Журнал
 * Blogger
 * Одноклассники
+* Блог Я.ру
+* Блог liveinternet.ru
 
 Чего-то не хватает? Запросите добавление Вашего любимого сайта на [странице плагина](http://www.jackyfox.com/sociable-re/)
 
@@ -36,6 +38,10 @@ Stable tag: 3.5.2.8
 2. Sociable RE в действии.
 
 == Changelog ==
+= 3.5.2.9 =
+* [add] добавлена кнопка для Я.ру;
+* [add] добавлена кнопка для Li.ру;
+
 = 3.5.2.8 =
 * [upd] новая иконка для twitter'a;
 * [upd] новая иконка для digg'a;
@@ -356,6 +362,9 @@ Special thanks to [Robert Harm](http://www.die-truppe.com/) for coming up with l
 Полную информацию по плагину ищите на [Sociable RE](http://www.jackyfox.com/sociable-re/).
 
 == Upgrade Notice ==
+= 3.5.2.9 =
+Добавлены кнопки Я.ру и Ли.ру
+
 = 3.5.2.8 =
 Приведен в актуальное состояние внешний вид кнопок твиттера и дигга. Добавлены кнопки для Blogger и Одноклассников. Устранен баг со знаком вопроса
 
