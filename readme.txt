@@ -3,8 +3,8 @@ Contributors: jackyfox
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NRYHZVJNPGGA6
 Tags: social, bookmark, bookmarks, bookmarking, social bookmarking, social bookmarks, blogplay
 Requires at least: 2.8
-Tested up to: 3.0.4
-Stable tag: 3.5.2.9
+Tested up to: 3.1.3
+Stable tag: 3.5.2.10
 
 Добавляет кнопки для публикации ссылок в соц. сетях на страницы блога.
 
@@ -38,6 +38,9 @@ Stable tag: 3.5.2.9
 2. Sociable RE в действии.
 
 == Changelog ==
+= 3.5.2.10 =
+* [upd] обновлена кнопка для twitter'а
+
 = 3.5.2.9 =
 * [add] добавлена кнопка для Я.ру;
 * [add] добавлена кнопка для Li.ру;
@@ -362,6 +365,9 @@ Special thanks to [Robert Harm](http://www.die-truppe.com/) for coming up with l
 Полную информацию по плагину ищите на [Sociable RE](http://www.jackyfox.com/sociable-re/).
 
 == Upgrade Notice ==
+= 3.5.2.10 =
+Обновите плагин для правильной работы кнопки Twitter'а
+
 = 3.5.2.9 =
 Добавлены кнопки Я.ру и Ли.ру
 
